@@ -4,4 +4,4 @@
 
 > Reusable utilities (MIT). First candidate: folder-structure report script.
 
-- Git workflow practice: status, add, commit, and push.
+- Git workflow practice: status, add, commit, push and pull.
