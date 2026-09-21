@@ -1,13 +1,31 @@
+# Datos crudos y archivos analíticos pesados
+data/raw/
 *.dta
-*.csv
 *.parquet
 *.duckdb
 *.rar
 *.zip
 *.7z
-data/raw/
+
+# CSV: ignora los datos originales, permite tablas procesadas pequeñas
+data/raw/*.csv
+
+# Python y Jupyter
 .venv/
+venv/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+
+# R / RStudio
 .Rproj.user/
+
+# Credenciales y configuración local
+.env
+
+# Archivos temporales y del sistema operativo
 ~$*
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
